@@ -5,7 +5,7 @@ import os
 import asyncio
 import time
 
-TOKEN = TOKEn'
+TOKEN = 'TOKEN'
 intents = discord.Intents(messages=True, guilds=True, members=True, guild_messages=True, )
 bot = commands.Bot(intents=intents, command_prefix='!')
 
